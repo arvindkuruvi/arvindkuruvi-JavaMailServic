@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <title>Document</title>
+  <style>
+    .btn {
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      vertical-align: middle;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      color: #fff;
+      background-color: #ED7A29;
+      border-color: #ED7A29;
+    }
+  </style>
+</head>
+
+<body style="background-color: #3F51B5;padding: 10px">
+  <div
+    style="background-color: white;width: 70%;margin: auto;margin-top: 25px;padding: 20px;font-size: 16px;border-radius: 10px;">
+
+    <img src="http://www.mindweaver.org/crmb/mindweaverImgSrc/41/email_logo.png" alt=""
+      style="width:10%;height:10%;display: block;margin-left: auto;margin-right: auto">
+    <br />
+    <div style="margin:50px">
+      <p>Hello !</p>
+      
+      <p>${userName} wants to have contact , below are his details</p>
+      
+      <br><br>
+       <p>Username : ${userName}</p>
+       <p>Email : ${email}</p>
+      <p>Subject : ${subject}</p>
+      <p>Message : ${note}</p>
+      
+    </div>
+
+  </div>
+
+</body>
+
+</html>

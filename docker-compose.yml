@@ -1,0 +1,11 @@
+version: '3'
+services:
+    webbe:
+      container_name: chatweaver-be
+      build: .
+      restart: unless-stopped
+      tty: true
+      ports: 
+          - 8086:8086
+         
+    
